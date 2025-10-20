@@ -1,21 +1,21 @@
-SyriaTel Customer Churn Prediction
+**SyriaTel Customer Churn Prediction**
 
-Overview
+**Overview**
 This project develops a machine learning model to predict customer churn for SyriaTel, a telecommunications company. The model identifies at-risk customers enabling targeted retention efforts to reduce churn rates and improve customer loyalty.
 
-Business Problem
+**Business Problem**
 SyriaTel is experiencing a 14.5% monthly churn rate, resulting in significant revenue loss and increased customer acquisition costs. This project aims to:
 
-Predict which customers are likely to churn within the next 30 days
+- Predict which customers are likely to churn within the next 30 days
 
-Identify key factors driving churn decisions
+- Identify key factors driving churn decisions
 
-Enable proactive retention campaigns
+- Enable proactive retention campaigns
 
-Reduce customer acquisition costs by improving retention
+- Reduce customer acquisition costs by improving retention
 
-Dataset
-Source: SyriaTel Customer Churn from Kaggle
+**Dataset**
+**Source:** SyriaTel Customer Churn from Kaggle
 
 Size: 3,333 customers, 21 original features
 
