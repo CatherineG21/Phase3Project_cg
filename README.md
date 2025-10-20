@@ -117,21 +117,6 @@ ROC-AUC	    0.84	       0.87
 
 6. A/B Testing: Validate retention offer effectiveness
 
-**Project Structure**
-
-text
-syriatel-churn-prediction/
-├── data/
-│   └── SyriaTel.csv
-├── notebooks/
-│   └── churn_analysis.ipynb
-├── models/
-│   └── best_churn_model.pkl
-├── results/
-│   ├── performance_summary.json
-│   └── feature_importance.csv
-└── README.md
-
 **Resources**
 
 - pandas
