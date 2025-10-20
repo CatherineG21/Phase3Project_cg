@@ -18,11 +18,11 @@ SyriaTel is experiencing a 14.5% monthly churn rate, resulting in significant re
 
 **Source:** SyriaTel Customer Churn from Kaggle
 
-Size: 3,333 customers, 21 original features
+**Size:** 3,333 customers, 21 original features
 
-Target: churn (binary: 1 = churned, 0 = not churned)
+**Target:** churn (binary: 1 = churned, 0 = not churned)
 
-Key Features: Usage patterns, customer service interactions, account information
+**Key Features:** Usage patterns, customer service interactions, account information
 
 Methodology
 Data Understanding & EDA
