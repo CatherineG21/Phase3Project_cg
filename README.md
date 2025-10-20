@@ -69,12 +69,12 @@ Results
 Model Performance
 Both models were evaluated on test data with the following results:
 
-Metric	Logistic Regression	Decision Tree
-Accuracy	0.85	0.92
-Precision	0.68	0.79
-Recall	0.62	0.76
-F1-Score	0.65	0.77
-ROC-AUC	0.84	0.87
+Metric	  Logistic     Regression	Decision Tree
+Accuracy	0.85	       0.92
+Precision	0.68	       0.79
+Recall	  0.62	       0.76
+F1-Score	0.65	       0.77
+ROC-AUC	  0.84	        0.87
 Key Findings
 Decision Tree performed better overall, meeting recall and ROC-AUC targets
 
