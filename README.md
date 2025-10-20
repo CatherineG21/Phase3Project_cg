@@ -15,6 +15,7 @@ SyriaTel is experiencing a 14.5% monthly churn rate, resulting in significant re
 - Reduce customer acquisition costs by improving retention
 
 **Dataset**
+
 **Source:** SyriaTel Customer Churn from Kaggle
 
 Size: 3,333 customers, 21 original features
