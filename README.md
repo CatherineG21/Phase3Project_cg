@@ -24,88 +24,101 @@ SyriaTel is experiencing a 14.5% monthly churn rate, resulting in significant re
 
 **Key Features:** Usage patterns, customer service interactions, account information
 
-Methodology
-Data Understanding & EDA
-Explored data structure, distributions, and correlations
+**Methodology**
 
-Identified churn patterns across different customer segments
+**Data Understanding & EDA**
 
-Analyzed feature relationships with churn likelihood
+- Explored data structure, distributions, and correlations
 
-Data Cleaning & Preprocessing
-Handled missing values and duplicates
+- Identified churn patterns across different customer segments
 
-Encoded categorical variables (one-hot encoding for states)
+- Analyzed feature relationships with churn likelihood
 
-Normalized numeric features using StandardScaler
+**Data Cleaning & Preprocessing**
 
-Removed highly correlated features (charge columns)
+- Handled missing values and duplicates
 
-Dropped non-predictive features (phone numbers)
+- Encoded categorical variables (one-hot encoding for states)
 
-Modeling Approach
-Algorithms Used:
+- Normalized numeric features using StandardScaler
 
-Logistic Regression (interpretable baseline)
+- Removed highly correlated features (charge columns)
 
-Decision Tree Classifier (non-parametric comparison)
+- Dropped non-predictive features (phone numbers)
 
-Validation Strategy:
+**Modeling Approach**
 
-70-30 stratified train-test split
+**Algorithms Used:**
 
-Cross-validation for hyperparameter tuning
+- Logistic Regression (interpretable baseline)
 
-Regularization to prevent overfitting
+- Decision Tree Classifier (non-parametric comparison)
 
-Performance Targets:
+**Validation Strategy:**
 
-Primary: ROC-AUC > 0.85
+- 70-30 stratified train-test split
 
-Critical: Recall > 0.80 (capture most churners)
+- Cross-validation for hyperparameter tuning
 
-Minimum: Accuracy > 0.80
+- Regularization to prevent overfitting
 
-Results
-Model Performance
+**Performance Targets:**
+
+- Primary: ROC-AUC > 0.85
+
+- Critical: Recall > 0.80 (capture most churners)
+
+- Minimum: Accuracy > 0.80
+
+**Results**
+
+**Model Performance**
+
 Both models were evaluated on test data with the following results:
 
-Metric	  Logistic     Regression	Decision Tree
-Accuracy	0.85	       0.92
-Precision	0.68	       0.79
-Recall	  0.62	       0.76
-F1-Score	0.65	       0.77
-ROC-AUC	  0.84	        0.87
-Key Findings
-Decision Tree performed better overall, meeting recall and ROC-AUC targets
+Metric	    Logistic     Regression	Decision Tree
+Accuracy	  0.85	       0.92
+Precision	  0.68	       0.79
+Recall	    0.62	       0.76
+F1-Score	  0.65	       0.77
+ROC-AUC	    0.84	       0.87
 
-Top churn drivers: Customer service calls, total day minutes, international plan usage
+**Key Findings**
 
-High-risk segment: Identified customers with >70% churn probability
+- Decision Tree performed better overall, meeting recall and ROC-AUC targets
 
-Business Impact
-Potential cost savings: $120,000+ from targeted retention
+- Top churn drivers: Customer service calls, total day minutes, international plan usage
 
-Revenue protection: $560,000+ in annual revenue protected
+- High-risk segment: Identified customers with >70% churn probability
 
-Efficiency gain: 40% improvement in retention team targeting
+**Business Impact**
 
-Recommendations
-Immediate Actions
-Priority Retention Program: Target customers with >70% churn probability
+- Potential cost savings: $120,000+ from targeted retention
 
-Customer Service Optimization: Monitor customers with >3 service calls/month
+- Revenue protection: $560,000+ in annual revenue protected
 
-Proactive Outreach: Contact high-risk customers within 48 hours
+- Efficiency gain: 40% improvement in retention team targeting
 
-Strategic Initiatives
-Early Warning System: Implement model in production environment
+**Recommendations**
 
-Continuous Monitoring: Regular model retraining and performance tracking
+**Immediate Actions**
 
-A/B Testing: Validate retention offer effectiveness
+1. Priority Retention Program: Target customers with >70% churn probability
 
-Project Structure
+2. Customer Service Optimization: Monitor customers with >3 service calls/month
+
+3. Proactive Outreach: Contact high-risk customers within 48 hours
+
+**Strategic Initiatives**
+
+4. Early Warning System: Implement model in production environment
+
+5. Continuous Monitoring: Regular model retraining and performance tracking
+
+6. A/B Testing: Validate retention offer effectiveness
+
+**Project Structure**
+
 text
 syriatel-churn-prediction/
 ├── data/
@@ -118,41 +131,34 @@ syriatel-churn-prediction/
 │   ├── performance_summary.json
 │   └── feature_importance.csv
 └── README.md
-Installation & Usage
-bash
-# Clone repository
-git clone <repository-url>
-cd syriatel-churn-prediction
 
-# Install dependencies
-pip install -r requirements.txt
+**Resources**
 
-# Run analysis
-jupyter notebook notebooks/churn_analysis.ipynb
-Dependencies
-pandas
+- pandas
 
-numpy
+- numpy
 
-scikit-learn
+- scikit-learn
 
-matplotlib
+- matplotlib
 
-seaborn
+- seaborn
 
-jupyter
+- jupyter
 
-Limitations & Future Work
-Limited to available features in dataset
+**Limitations & Future Work**
 
-Requires regular retraining as customer behavior evolves
+- Limited to available features in dataset
 
-Potential integration with real-time customer data systems
+- Requires regular retraining as customer behavior evolves
 
-Expansion to include customer satisfaction metrics
+- Potential integration with real-time customer data systems
 
-Conclusion
+- Expansion to include customer satisfaction metrics
+
+**Conclusion**
+
 This project successfully demonstrates the application of machine learning to solve a critical business problem. The Decision Tree model provides SyriaTel with an effective tool for predicting customer churn and enabling data-driven retention strategies, potentially saving significant costs and protecting revenue.
 
-Author: Catherine Gachiri
+**Author:** Catherine Gachiri
 
