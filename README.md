@@ -1,4 +1,5 @@
 SyriaTel Customer Churn Prediction
+
 Overview
 This project develops a machine learning model to predict customer churn for SyriaTel, a telecommunications company. The model identifies at-risk customers enabling targeted retention efforts to reduce churn rates and improve customer loyalty.
 
